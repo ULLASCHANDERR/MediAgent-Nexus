@@ -1,0 +1,101 @@
+# Clinical Prompts Configuration for MCP Server
+prompts:
+  discharge-extraction-prompt:
+    name: "discharge-extraction-prompt"
+    description: "Extract structured clinical data from discharge, lab, and billing documents"
+    parameters:
+      - name: language
+        description: "Primary language of the input document (e.g., English, Hindi, Spanish, German)"
+        required: true
+      - name: doc_types
+        description: "List or comma-separated document types (discharge_report, lab_report, bill)"
+        required: true
+    template: |
+      You are an expert Clinical Data Extraction Agent.
+      Language: {language}
+      Document Types: {doc_types}
+      
+      Carefully extract all clinical and billing fields including:
+      - Patient details: patient_id, patient_name, age, gender, address, admission_date, discharge_date, ward, bed_no, doctors
+      - Clinical data: discharge_diagnosis, medications (name, strength, dosage, frequency, route, remarks), allergies, follow_up_appointments, discharge_instructions, discharge_approved_by, discharge_approved
+      - Lab results: tests, values, reference ranges, flags
+      - Billing info: total_amount, payment_status, line_items
+      Return the output as valid, structured JSON.
+
+  ehr-cross-validation-prompt:
+    name: "ehr-cross-validation-prompt"
+    description: "Cross-validate extracted discharge data against Mock EHR records"
+    parameters:
+      - name: patient_id
+        description: "The unique identifier of the patient"
+        required: true
+    template: |
+      You are a Clinical Validation Agent. Cross-validate the extracted discharge data for patient {patient_id}
+      against the Electronic Health Record (EHR) database.
+      Check for:
+      1. Medication discrepancies or omissions vs EHR med history
+      2. Known drug allergies vs newly prescribed medications (ALLERGY CONTRADICTION)
+      3. Primary diagnosis vs documented care plan
+      4. Missing mandated follow-up consultations
+      5. Unaddressed abnormal lab results
+      6. Formal physician discharge approval
+      7. Hospital bill settlement status
+
+  abbreviation-normalization-prompt:
+    name: "abbreviation-normalization-prompt"
+    description: "Translate multi-lingual clinical terms to English and normalize medical abbreviations"
+    parameters:
+      - name: source_language
+        description: "Source language (e.g., Hindi, Spanish, German)"
+        required: true
+    template: |
+      You are a Clinical Language Normalizer Agent.
+      Source Language: {source_language}
+      Translate all clinical text into English.
+      Normalize all Latin/medical abbreviations into clear plain-English expressions:
+      e.g., BID -> twice daily, TID -> three times daily, PO -> orally / by mouth, PRN -> as needed, QHS -> at bedtime, QD -> once daily.
+      Provide a translation confidence score (0.0 to 1.0) and list of replaced abbreviations.
+
+  summary-generation-prompt:
+    name: "summary-generation-prompt"
+    description: "Generate a patient-friendly, easy-to-read discharge summary"
+    parameters:
+      - name: risk_level
+        description: "Calculated risk level (Low, Medium, High)"
+        required: true
+      - name: audience
+        description: "Target audience (e.g., Patient/Caregiver, Clinician)"
+        required: true
+    template: |
+      You are a Patient Discharge Summary Generator.
+      Target Audience: {audience}
+      Assessed Risk Level: {risk_level}
+      Generate a clear, compassionate, and structured discharge guide in progressive sections:
+      1. Patient Information & Hospital Stay
+      2. Diagnosis & What It Means in Simple Terms
+      3. Medications & Schedule (Plain English Instructions)
+      4. Key Lab Findings & Next Steps
+      5. Financial & Billing Clearance
+      6. Red-Flag Warning Signs & When to Seek Emergency Care
+
+  rag-answer-prompt:
+    name: "rag-answer-prompt"
+    description: "Clinical Question Answering prompt for Agno RAG Agent"
+    parameters:
+      - name: context_length
+        description: "Length of retrieved context chunks"
+        required: false
+      - name: question
+        description: "User question about patient records"
+        required: false
+    template: |
+      You are an expert Clinical Decision Support and QA assistant for hospital administrators and clinicians.
+      Context:
+      {context}
+
+      User Question: {question}
+
+      CRITICAL RULE:
+      Answer strictly using the provided context from patient records.
+      For out-of-context questions the response must be: "I don’t know — this information is not available in the patient records."
+      Do not hallucinate or make assumptions beyond the text provided.

@@ -1,0 +1,32 @@
+UNIVERSITÄTSKLINIKUM FRANKFURT - ENTLASSUNGSBERICHT
+==================================================
+PATIENTENDATEN UND AUFNAHME
+Patienten-ID: P003
+Name des Patienten: Hans Gruber
+Alter: 62
+Geschlecht: Male
+Adresse: Goethestrasse 14, Frankfurt / Chicago Expat Center
+Aufnahmedatum: 2026-09-24
+Entlassungsdatum: 2026-09-30
+Station: Pulmonology Unit
+Bettnummer: P-18
+Behandelnde Ärzte: Dr. Klaus Weber, MD; Dr. Emily Taylor, MD
+
+KLINISCHER VERLAUF UND DIAGNOSE
+Entlassungsdiagnose: Ambulant erworbene bakterielle Pneumonie (Bacterial Pneumonia)
+Allergien und Unverträglichkeiten: Sulfa drugs (Sulfonamide - makulopapulöses Exanthem)
+
+ENTLASSUNGSMEDIKATION
+1. Amoxicillin/Clavulanate 875mg, 1 Tablette, BID, Verabreichungsweg: PO, Dauer: 10 Tage, Bemerkungen: Zu den Mahlzeiten einnehmen. Gesamtmenge: 20 Tabletten.
+2. Paracetamol 650mg, 1 Tablette, PRN, Verabreichungsweg: PO, Dauer: Bei Bedarf bei Fieber oder Schmerzen alle 6 Stunden. Gesamtmenge: 15 Tabletten.
+
+FOLGETERMINE
+- Pneumologische Nachuntersuchung: Dr. Emily Taylor in 3 Wochen (2026-10-21) mit Kontroll-Röntgenaufnahme Thorax
+
+ENTLASSUNGSHINWEISE
+Tägliche Trinkmenge mind. 2,5 Liter. Atemtherapie mit Incentive-Spirometer alle 2 Stunden tagsüber. Bei erneutem Fieber > 38,5°C oder zunehmender Atemnot sofort die Notaufnahme aufsuchen.
+
+ENTLASSUNGSGENEHMIGUNG
+Genehmigt durch: Dr. Klaus Weber, MD (Leitender Pneumologe)
+Entlassung genehmigt: Yes
+Zeitstempel: 2026-09-30 09:30:00 MEZ

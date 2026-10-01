@@ -1,0 +1,30 @@
+{
+  "patient_id": "P001",
+  "patient_name": "John Doe",
+  "hospital_name": "General Hospital of Boston",
+  "billing_date": "2026-09-28",
+  "invoice_number": "INV-2026-8801",
+  "payment_status": "PAID",
+  "insurance_guarantee_letter": true,
+  "line_items": [
+    {
+      "description": "Hospital Room & Board - Ward 4B (8 Days)",
+      "amount": 2000.00
+    },
+    {
+      "description": "Endocrinology Clinical Consultations",
+      "amount": 650.00
+    },
+    {
+      "description": "Diagnostic Laboratory Panels (Comprehensive Metabolic & HbA1c)",
+      "amount": 420.00
+    },
+    {
+      "description": "Pharmacy & Infusions",
+      "amount": 380.00
+    }
+  ],
+  "total_amount": 3450.00,
+  "patient_responsibility": 0.00,
+  "insurance_covered": 3450.00
+}

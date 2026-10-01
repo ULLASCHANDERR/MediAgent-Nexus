@@ -1,0 +1,35 @@
+HOSPITAL METROPOLITANO DE SALUD - INFORME DE ALTA MÉDICA
+======================================================
+DATOS DEL PACIENTE Y ADMISIÓN
+ID del Paciente: P002
+Nombre del Paciente: Maria Rodriguez
+Edad: 58
+Género: Female
+Dirección: 742 Evergreen Terrace, Miami, FL
+Fecha de Admisión: 2026-09-22
+Fecha de Alta: 2026-09-29
+Unidad: Cardiology Stepdown
+Cama: C-05
+Médicos Tratantes: Dr. Marcus Vance, MD; Dr. Elena Gomez, MD
+
+CURSO CLÍNICO Y DIAGNÓSTICO
+Diagnóstico de Alta: Síndrome Coronario Agudo / Infarto de Miocardio sin elevación del ST (NSTEMI)
+Alergias Conocidas y Reacciones Adversas: Aspirin (Broncoespasmo severo, angioedema)
+
+MEDICAMENTOS DE ALTA
+1. Clopidogrel 75mg, 1 tableta, QD, Vía: PO, Período: 30 días, Observaciones: Tomar por la mañana con agua. Cantidad Total: 30 tabletas.
+2. Atorvastatin 80mg, 1 tableta, QPM, Vía: PO, Período: 30 días, Observaciones: Tomar por la noche. Cantidad Total: 30 tabletas.
+3. Metoprolol Succinate 25mg, 1 tableta, BID, Vía: PO, Período: 30 días, Observaciones: Controlar frecuencia cardíaca. Cantidad Total: 60 tabletas.
+4. Aspirin 81mg, 1 tableta, QD, Vía: PO, Período: 30 días, Observaciones: Tomar con alimentos. Cantidad Total: 30 tabletas.
+
+CITAS DE SEGUIMIENTO
+- Consulta de Cardiología: Dr. Marcus Vance en 7 días (2026-10-06)
+- Rehabilitación Cardíaca: Evaluación inicial en 14 días (2026-10-13)
+
+INSTRUCCIONES DE ALTA
+Evitar esfuerzos físicos pesados (> 5 kg). Si experimenta dolor torácico opresivo, disnea súbita o mareos, acudir de urgencia de inmediato.
+
+AUTORIZACIÓN DE ALTA
+Aprobado por: Dr. Marcus Vance, MD
+Alta Aprobada: Yes
+Timestamp: 2026-09-29 10:15:00 EST

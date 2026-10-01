@@ -1,0 +1,17 @@
+CENTRAL CLINICAL LABORATORY REPORT
+===================================
+Patient ID: P001
+Patient Name: John Doe
+Vendor Name: Quest Clinical Diagnostics
+Lab Name: Central Metro Lab
+Report Date: 2026-09-27
+
+TEST RESULTS:
+1. Fasting Plasma Glucose: 210 mg/dL (Reference Range: 70-99 mg/dL) [HIGH]
+2. Hemoglobin A1c: 9.2% (Reference Range: 4.0-5.6%) [HIGH]
+3. Serum Creatinine: 0.95 mg/dL (Reference Range: 0.74-1.35 mg/dL) [NORMAL]
+4. Blood Urea Nitrogen (BUN): 16 mg/dL (Reference Range: 7-20 mg/dL) [NORMAL]
+5. Potassium (Serum): 4.2 mmol/L (Reference Range: 3.5-5.1 mmol/L) [NORMAL]
+
+Lab Notes: Marked elevation of glycated hemoglobin consistent with suboptimal glycemic control. Renal markers within normal limits.
+Lab Director: Dr. Alan Grant, MD, Pathologist

@@ -1,0 +1,86 @@
+{
+  "P001": {
+    "care_plan_id": "CP-P001-2026",
+    "primary_diagnosis": "Type 2 Diabetes Mellitus with Acute Hyperglycemia",
+    "care_goals": [
+      "Target HbA1c < 7.0% within 3 months",
+      "Diabetic foot ulcer prevention education"
+    ],
+    "required_follow_ups": [
+      {
+        "specialty": "Endocrinology",
+        "timeframe_days": 14,
+        "instructions": "Follow up with Dr. Chen for insulin and oral hypoglycemic adjustment"
+      },
+      {
+        "specialty": "Podiatry",
+        "timeframe_days": 30,
+        "instructions": "Routine diabetic foot evaluation"
+      }
+    ],
+    "dietary_restrictions": "Consistent carbohydrate diet (1800 kcal/day), sodium < 2000mg/day",
+    "activity_orders": "Walking 30 minutes daily as tolerated"
+  },
+  "P002": {
+    "care_plan_id": "CP-P002-2026",
+    "primary_diagnosis": "Acute Coronary Syndrome / Non-ST Elevation Myocardial Infarction (NSTEMI)",
+    "care_goals": [
+      "Secondary cardiovascular prevention",
+      "Stent thrombosis prevention via dual antiplatelet therapy",
+      "Strict avoidance of NSAIDs and Aspirin due to severe allergic history"
+    ],
+    "required_follow_ups": [
+      {
+        "specialty": "Cardiology",
+        "timeframe_days": 7,
+        "instructions": "Outpatient clinic visit with Dr. Marcus Vance with repeat ECG"
+      },
+      {
+        "specialty": "Cardiac Rehabilitation",
+        "timeframe_days": 14,
+        "instructions": "Initiate Phase II monitored exercise program"
+      }
+    ],
+    "dietary_restrictions": "Heart-healthy Mediterranean diet, low saturated fat, sodium < 1500mg/day",
+    "activity_orders": "No heavy lifting (>10 lbs) for 2 weeks"
+  },
+  "P003": {
+    "care_plan_id": "CP-P003-2026",
+    "primary_diagnosis": "Community-Acquired Bacterial Pneumonia",
+    "care_goals": [
+      "Resolution of pulmonary consolidation",
+      "Complete 10-day oral antibiotic course"
+    ],
+    "required_follow_ups": [
+      {
+        "specialty": "Pulmonology",
+        "timeframe_days": 21,
+        "instructions": "Repeat chest X-ray and clinical examination with Dr. Taylor"
+      }
+    ],
+    "dietary_restrictions": "High protein, encourage oral hydration (2.5L/day)",
+    "activity_orders": "Incentive spirometry every 2 hours while awake"
+  },
+  "P004": {
+    "care_plan_id": "CP-P004-2026",
+    "primary_diagnosis": "Hypertensive Crisis with Stage 3 Chronic Kidney Disease (CKD)",
+    "care_goals": [
+      "Maintain home blood pressure < 130/80 mmHg",
+      "Prevent renal function decline; monitor creatinine and electrolytes"
+    ],
+    "required_follow_ups": [
+      {
+        "specialty": "Nephrology",
+        "timeframe_days": 10,
+        "instructions": "Follow up with Dr. Vikram Sethi with repeat Serum Creatinine and Potassium"
+      },
+      {
+        "specialty": "Cardiology",
+        "timeframe_days": 14,
+        "instructions": "Review anti-hypertensive titration"
+      }
+    ],
+    "dietary_restrictions": "Low sodium (< 1500 mg/day), renal diet (moderate protein, limit potassium-rich foods)",
+    "activity_orders": "Light ambulatory walking; avoid strenuous isometric exertion"
+  }
+}

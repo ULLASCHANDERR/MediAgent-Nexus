@@ -1,0 +1,16 @@
+अपोलो डायग्नोस्टिक्स एवं पैथोलॉजी लैब (APOLLO CLINICAL LAB)
+======================================================
+रोगी आईडी (Patient ID): P004
+रोगी का नाम (Patient Name): Rajesh Sharma
+विक्रेता / लैब का नाम (Lab Name): Apollo Metro Reference Lab
+रिपोर्ट दिनांक (Report Date): 2026-09-29
+
+परीक्षण परिणाम (TEST RESULTS):
+1. Serum Creatinine: 1.85 mg/dL (Reference Range: 0.74-1.35 mg/dL) [HIGH / उच्च]
+2. Estimated GFR (eGFR): 41 mL/min/1.73m2 (Reference Range: >60 mL/min) [LOW / निम्न]
+3. Serum Potassium: 4.7 mmol/L (Reference Range: 3.5-5.1 mmol/L) [NORMAL / सामान्य]
+4. Blood Urea Nitrogen: 34 mg/dL (Reference Range: 7-20 mg/dL) [HIGH / उच्च]
+5. Urine Protein: Trace Positive [MILD ELEVATION]
+
+पैथोलॉजिस्ट टिप्पणी: रीनल फंक्शन में सुधार देखा गया है। डिहाइड्रेशन से बचें एवं नेफ्रोलॉजिस्ट से परामर्श लें।
+हस्ताक्षर: Dr. Rajesh Gupta, MD (Pathologist)

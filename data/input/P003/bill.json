@@ -1,0 +1,30 @@
+{
+  "patient_id": "P003",
+  "patient_name": "Hans Gruber",
+  "hospital_name": "Universitätsklinikum Frankfurt",
+  "billing_date": "2026-09-30",
+  "invoice_number": "RECHNUNG-2026-4491",
+  "payment_status": "PAID",
+  "insurance_guarantee_letter": true,
+  "line_items": [
+    {
+      "description": "Stationärer Aufenthalt Pneumologie (6 Tage)",
+      "amount": 2600.00
+    },
+    {
+      "description": "Sauerstofftherapie & Inhalationstherapie",
+      "amount": 540.00
+    },
+    {
+      "description": "Labordiagnostik Mikrobiologie & Blutbild",
+      "amount": 480.00
+    },
+    {
+      "description": "Parenterale Antibiotikatherapie & Medikamente",
+      "amount": 580.00
+    }
+  ],
+  "total_amount": 4200.00,
+  "patient_responsibility": 0.00,
+  "insurance_covered": 4200.00
+}

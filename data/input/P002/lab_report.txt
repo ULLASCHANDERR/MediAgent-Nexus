@@ -1,0 +1,16 @@
+LABORATORIO CLÍNICO CARDIOVASCULAR
+===================================
+ID del Paciente: P002
+Nombre del Paciente: Maria Rodriguez
+Proveedor de Laboratorio: LabCorp Diagnostics
+Nombre del Laboratorio: Miami Cardiovascular Lab
+Fecha del Reporte: 2026-09-28
+
+RESULTADOS DE PRUEBAS:
+1. Troponina I: 0.45 ng/mL (Rango de Referencia: <0.04 ng/mL) [CRÍTICO ALTO]
+2. CK-MB: 18.2 ng/mL (Rango de Referencia: 0.0-5.0 ng/mL) [ALTO]
+3. Perfil Lipídico - LDL: 142 mg/dL (Rango de Referencia: <100 mg/dL) [ALTO]
+4. Creatinina Sérica: 0.88 mg/dL (Rango de Referencia: 0.60-1.20 mg/dL) [NORMAL]
+
+Notas Clínicas: Elevación aguda de biomarcadores miocárdicos indicativa de daño isquémico miocárdico resuelto tras estabilización médica.
+Firma del Director: Dra. Carmen Diaz, Patóloga

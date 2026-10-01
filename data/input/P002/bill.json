@@ -1,0 +1,30 @@
+{
+  "patient_id": "P002",
+  "patient_name": "Maria Rodriguez",
+  "hospital_name": "Hospital Metropolitano de Salud",
+  "billing_date": "2026-09-29",
+  "invoice_number": "INV-2026-9042",
+  "payment_status": "UNPAID",
+  "insurance_guarantee_letter": false,
+  "line_items": [
+    {
+      "description": "Unidad de Cuidados Coronarios (CCU) y Monitoreo Telemétrico (7 Días)",
+      "amount": 7500.00
+    },
+    {
+      "description": "Cateterismo Cardíaco Diagnóstico y Angiografía",
+      "amount": 3800.00
+    },
+    {
+      "description": "Paneles de Biomarcadores Cardíacos y Pruebas Especiales",
+      "amount": 850.00
+    },
+    {
+      "description": "Medicamentos Hospitalarios y Terapia Antitrombótica",
+      "amount": 650.00
+    }
+  ],
+  "total_amount": 12800.00,
+  "patient_responsibility": 12800.00,
+  "insurance_covered": 0.00
+}

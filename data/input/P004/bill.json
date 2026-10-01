@@ -1,0 +1,31 @@
+{
+  "patient_id": "P004",
+  "patient_name": "Rajesh Sharma",
+  "hospital_name": "Max Super Speciality Hospital",
+  "billing_date": "2026-09-30",
+  "invoice_number": "MAX-INV-2026-3392",
+  "payment_status": "PAID",
+  "insurance_guarantee_letter": true,
+  "line_items": [
+    {
+      "description": "Renal Special Care Bed & Monitoring (5 Days)",
+      "amount": 45000.00
+    },
+    {
+      "description": "Nephrology & Cardiology Consultant Fees",
+      "amount": 15000.00
+    },
+    {
+      "description": "Biochemical Renal Panels & Electrolytes",
+      "amount": 12000.00
+    },
+    {
+      "description": "Emergency IV Antihypertensives & Pharmacy",
+      "amount": 13000.00
+    }
+  ],
+  "total_amount": 85000.00,
+  "currency": "INR",
+  "patient_responsibility": 0.00,
+  "insurance_covered": 85000.00
+}

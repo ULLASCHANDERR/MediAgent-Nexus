@@ -1,0 +1,16 @@
+MEDIZINISCHES ZENTRALLABOR FRANKFURT
+====================================
+Patienten-ID: P003
+Name des Patienten: Hans Gruber
+Laboranbieter: Bioscientia Diagnostik
+Laborname: Frankfurt Pulm Lab
+Berichtsdatum: 2026-09-28
+
+TESTERGEBNISSE:
+1. Leukozyten (WBC): 14.5 10^3/uL (Referenzbereich: 4.5-11.0) [HOCH]
+2. C-reaktives Protein (CRP): 48.0 mg/L (Referenzbereich: <5.0) [HOCH]
+3. Procalcitonin: 0.85 ng/mL (Referenzbereich: <0.10) [ERHÖHT]
+4. Sauerstoffsättigung (SpO2): 94% Raumluft (Referenzbereich: 95-100%) [LEICHT ERNIEDRIGT]
+
+Befund: Deutliche systemische Entzündungszeichen vereinbar mit lobärer Pneumonie, unter intravenöser Antibiose rückläufig.
+Unterschrift Laborarzt: Dr. Stefan Meier, MD

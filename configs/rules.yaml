@@ -1,0 +1,111 @@
+# Clinical Rules Configuration
+completeness_rules:
+  discharge_report:
+    required_fields:
+      - patient_id
+      - patient_name
+      - age
+      - gender
+      - address
+      - admission_date
+      - discharge_date
+      - ward
+      - bed_no
+      - doctors
+      - discharge_diagnosis
+      - medications
+      - adr_allergy_info
+      - follow_up_appointments
+      - discharge_instructions
+      - discharge_approved_by
+      - discharge_approved
+    blocking_fields:
+      - patient_id
+      - patient_name
+      - discharge_diagnosis
+      - discharge_approved
+      - medications
+
+  lab_report:
+    required_fields:
+      - patient_id
+      - vendor_name
+      - lab_name
+      - report_date
+      - tests
+    blocking_fields:
+      - patient_id
+      - tests
+
+  bill:
+    required_fields:
+      - patient_id
+      - hospital_name
+      - billing_date
+      - line_items
+      - total_amount
+      - payment_status
+    blocking_fields:
+      - patient_id
+      - total_amount
+      - payment_status
+
+  prescription:
+    required_fields:
+      - sl_no
+      - medicine_name
+      - strength
+      - dosage
+      - frequency
+      - route
+      - period
+      - remarks
+      - total_quantity
+    blocking_fields:
+      - medicine_name
+      - strength
+      - frequency
+      - route
+
+cross_validation_rules:
+  - id: med_omission_check
+    name: "Medication Omission Check"
+    severity: Warning
+    description: "Discharge meds differ from EHR medication history"
+    action: "Flag for review"
+
+  - id: allergy_contradiction_check
+    name: "Allergy Contradiction Check"
+    severity: Critical
+    description: "Prescribed med conflicts with known allergy"
+    action: "Block discharge"
+
+  - id: diagnosis_mismatch_check
+    name: "Diagnosis Mismatch Check"
+    severity: Warning
+    description: "Discharge diagnosis differs from EHR care plan"
+    action: "Flag for review"
+
+  - id: follow_up_missing_check
+    name: "Missing Follow-up Check"
+    severity: Critical
+    description: "Follow-up not documented despite care plan requirement"
+    action: "Block discharge"
+
+  - id: lab_follow_up_mismatch_check
+    name: "Abnormal Lab Follow-up Check"
+    severity: Warning
+    description: "Abnormal lab values have no documented action"
+    action: "Flag for review"
+
+  - id: discharge_approval_check
+    name: "Physician Discharge Approval Check"
+    severity: Critical
+    description: "Discharge not approved by treating physician"
+    action: "Block discharge"
+
+  - id: bill_settlement_check
+    name: "Bill Settlement Check"
+    severity: Critical
+    description: "Bill not PAID or lacking insurance guarantee letter"
+    action: "Block discharge"

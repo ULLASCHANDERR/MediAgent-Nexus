@@ -1,0 +1,35 @@
+{
+  "P001": [
+    {
+      "substance": "Penicillin",
+      "severity": "High",
+      "reaction": "Urticaria and facial edema"
+    }
+  ],
+  "P002": [
+    {
+      "substance": "Aspirin",
+      "severity": "Critical",
+      "reaction": "Severe bronchospasm, angioedema"
+    },
+    {
+      "substance": "NSAIDs",
+      "severity": "Moderate",
+      "reaction": "Asthma exacerbation"
+    }
+  ],
+  "P003": [
+    {
+      "substance": "Sulfa drugs",
+      "severity": "Moderate",
+      "reaction": "Maculopapular rash"
+    }
+  ],
+  "P004": [
+    {
+      "substance": "Enalapril / ACE Inhibitors",
+      "severity": "Critical",
+      "reaction": "Severe laryngeal edema"
+    }
+  ]
+}

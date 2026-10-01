@@ -1,0 +1,45 @@
+# System & Agent Ports and Architecture Configuration
+ports:
+  mock_ehr: 8050
+  primary_mcp_clinical: 8200
+  secondary_mcp_analytics: 8201
+  clinical_extractor_agent: 8100
+  clinical_validation_agent: 8101
+  clinical_normalizer_agent: 8102
+  discharge_monitor_agent: 8103
+  summary_generator_agent: 8104
+  clinical_rag_agent: 8105
+  host_orchestrator: 8083
+  streamlit_dashboard: 8501
+
+security:
+  auth_header: "X-Agent-Auth-Token"
+  shared_secret_token: "clinical-agentic-secure-token-2026"
+
+models:
+  primary_llm: "bedrock/amazon.nova-lite-v1:0"
+  fallback_llm: "cohere/command-r-plus"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+mcp_servers:
+  primary:
+    name: "Primary Clinical Tools Server"
+    url: "http://localhost:8200/clinicaltools"
+    primitives: ["tools", "resources", "prompts", "sampling", "elicitation", "roots"]
+  secondary:
+    name: "Secondary Analytics Server"
+    url: "http://localhost:8201/analyticstools"
+    primitives: ["tools"]
+
+paths:
+  input_data: "data/input"
+  mock_ehr: "data/mock_ehr"
+  vector_db: "data/vector_db"
+  templates: "templates"
+  reports: "data/reports"
+
+langfuse:
+  enabled: true
+  public_key: "pk-lf-mock-capstone-public"
+  secret_key: "sk-lf-mock-capstone-secret"
+  host: "https://cloud.langfuse.com"

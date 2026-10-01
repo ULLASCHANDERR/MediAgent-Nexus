@@ -1,0 +1,34 @@
+GENERAL HOSPITAL - DISCHARGE SUMMARY
+=======================================
+PATIENT DEMOGRAPHICS & ADMISSION
+Patient ID: P001
+Patient Name: John Doe
+Age: 45
+Gender: Male
+Address: 124 Baker Street, Boston, MA
+Admission Date: 2026-09-20
+Discharge Date: 2026-09-28
+Ward: Ward 4B
+Bed No: B-12
+Attending Doctors: Dr. Robert Chen, MD; Dr. Sarah Jenkins, MD
+
+CLINICAL COURSE & DIAGNOSIS
+Discharge Diagnosis: Type 2 Diabetes Mellitus with Acute Hyperglycemia
+Adverse Drug Reactions / Allergies: Penicillin (severe urticaria and facial edema)
+
+DISCHARGE MEDICATIONS
+1. Metformin 500mg, 1 tablet, BID, Route: PO, Period: 30 days, Remarks: Take with meals. Total Quantity: 60 tablets.
+2. Glipizide 5mg, 1 tablet, QD, Route: PO, Period: 30 days, Remarks: Take 30 mins before breakfast. Total Quantity: 30 tablets.
+3. Lisinopril 10mg, 1 tablet, QD, Route: PO, Period: 30 days, Remarks: Take in the morning for renal protection. Total Quantity: 30 tablets.
+
+FOLLOW-UP APPOINTMENTS
+- Endocrinology Clinic: Dr. Robert Chen on 2026-10-12 at 10:30 AM (14 days)
+- Podiatry Clinic: Diabetic foot examination on 2026-10-28 at 2:00 PM (30 days)
+
+DISCHARGE INSTRUCTIONS
+Maintain blood glucose log BID (fasting and 2 hours post-prandial). Maintain consistent carbohydrate diet. Contact clinic immediately if fasting blood glucose > 250 mg/dL or if symptoms of hypoglycemia occur (shakiness, diaphoresis).
+
+DISCHARGE AUTHORIZATION
+Discharge Approved By: Dr. Robert Chen, MD (Attending Endocrinologist)
+Discharge Approved: Yes
+Approval Timestamp: 2026-09-28 11:45:00 EST

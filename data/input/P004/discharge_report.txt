@@ -1,0 +1,33 @@
+मैक्स सुपर स्पेशलिटी हॉस्पिटल - डिस्चार्ज सारांश (DISCHARGE SUMMARY)
+=============================================================
+रोगी विवरण एवं भर्ती (PATIENT DEMOGRAPHICS & ADMISSION)
+रोगी आईडी (Patient ID): P004
+रोगी का नाम (Patient Name): Rajesh Sharma
+आयु (Age): 51
+लिंग (Gender): Male
+पता (Address): 45 Lotus Garden, New Delhi / International Wing
+भर्ती की तारीख (Admission Date): 2026-09-25
+छुट्टी की तारीख (Discharge Date): 2026-09-30
+वार्ड (Ward): Renal Care Special Unit
+बेड नंबर (Bed No): R-03
+उपचार करने वाले चिकित्सक (Attending Doctors): Dr. Vikram Sethi, MD; Dr. Ananya Roy, MD
+
+रोग निदान (DISCHARGE DIAGNOSIS)
+डिस्चार्ज निदान: हाइपरटेंसिव क्राइसिस के साथ माइल्ड रीनल इम्पेयरमेंट (Hypertensive Crisis with Mild Renal Impairment)
+दवाइयों से एलर्जी (Allergies): Enalapril / ACE Inhibitors (गंभीर एंजियोएडेमा / laryngeal edema)
+
+डिस्चार्ज पर दवाइयां (DISCHARGE MEDICATIONS)
+1. Amlodipine 10mg, 1 tablet, QD, Route: PO, Period: 30 days, Remarks: सुबह नाश्ते के बाद लें। Total Quantity: 30 tablets.
+2. Telmisartan 40mg, 1 tablet, QD, Route: PO, Period: 30 days, Remarks: शाम को एक ही समय पर लें। Total Quantity: 30 tablets.
+
+फॉलो-अप परामर्श (FOLLOW-UP APPOINTMENTS)
+- नेफ्रोलॉजी क्लिनिक (Nephrology Clinic): Dr. Vikram Sethi के साथ 10 दिनों में (2026-10-10) सीरम क्रिएटिनिन जांच के साथ।
+- कार्डियोलॉजी क्लिनिक (Cardiology Clinic): 14 दिनों में (2026-10-14)।
+
+डिस्चार्ज निर्देश (DISCHARGE INSTRUCTIONS)
+कम नमक वाला आहार (Low sodium diet < 1500mg/day). रोजाना सुबह-शाम रक्तचाप (BP) मापें और डायरी में लिखें। यदि चक्कर आना, छाती में दर्द या सांस फूलने की समस्या हो तो तुरंत आपातकालीन कक्ष (Emergency Room) में आएं।
+
+डिस्चार्ज अनुमोदन (DISCHARGE APPROVAL)
+अनुमोदनकर्ता (Approved By): Dr. Vikram Sethi, MD (Consultant Nephrologist)
+डिस्चार्ज स्वीकृत (Discharge Approved): Yes
+दिनांक व समय: 2026-09-30 11:00:00 IST
